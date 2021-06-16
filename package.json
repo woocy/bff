@@ -2,5 +2,11 @@
   "name": "bff",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "script": {
+    "start": "NODE_ENV=development"
+  },
+  "dependencies": {
+    "koa": "^2.13.1"
+  }
 }
